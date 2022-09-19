@@ -1,2 +1,5 @@
-import * as math from "./math.js"
-math.sum(1, 2) // 3
+import MainController from "./controllers/MainController.js";
+
+document.addEventListener("DOMContentLoaded", () => {
+  new MainController();
+});
